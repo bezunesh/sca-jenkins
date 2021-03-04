@@ -1,8 +1,6 @@
--#!/bin/bash     
-<<EOF       
- cd /var/www/html
- git pull      
- npm install --production      
- pm2 restart all
- exit      
-EOF
+#!/bin/bash     
+cd /var/www/html
+git pull      
+npm install --production      
+pm2 restart all
+exit      
